@@ -1,0 +1,13 @@
+x=[0, 1, 2, 4, 3, 5, 9, 7, 8, 6]
+print("lista1=", x)
+x.sort()
+print("lista2=", x)
+x.sort(reverse=True)
+print("lista3=", x)
+print(len(x))
+print(max(x))
+print(min(x))
+x.insert(10, (111))
+print("lista4=", x)
+x.insert(1, (222))
+print("lista5=", x)
